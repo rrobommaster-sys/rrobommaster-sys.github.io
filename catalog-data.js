@@ -98,7 +98,7 @@ window.ROBO_CATALOG = {
       "category": "vsosh",
       "name": "Набор «Базовый»",
       "price": "25 000 ₽",
-      "image": "/assets/catalog/vsosh-nabor-bazovyy.jpg",
+      "image": "/assets/catalog/vsosh-nabor-bazovyy-25000.jpg",
       "archiveUrl": "#order"
     },
     {
