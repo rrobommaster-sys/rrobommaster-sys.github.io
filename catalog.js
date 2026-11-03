@@ -82,8 +82,21 @@
     document.getElementById('order')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  function applyCatalogHash() {
+    if (window.location.hash !== '#fields') return;
+    const button = categoriesRoot.querySelector('[data-category="polya"]');
+    if (!button) return;
+    activeCategory = 'polya';
+    visibleCount = 16;
+    categoriesRoot.querySelectorAll('.catalog-chip').forEach(chip => chip.classList.toggle('is-active', chip === button));
+    render();
+    requestAnimationFrame(() => document.getElementById('products')?.scrollIntoView({ block: 'start' }));
+  }
+
   renderCategories();
   render();
+  applyCatalogHash();
+  window.addEventListener('hashchange', applyCatalogHash);
 
   categoriesRoot.addEventListener('click', event => {
     const button = event.target.closest('[data-category]');
@@ -92,6 +105,9 @@
     visibleCount = 16;
     categoriesRoot.querySelectorAll('.catalog-chip').forEach(chip => chip.classList.toggle('is-active', chip === button));
     render();
+    if (activeCategory === 'polya') {
+      history.replaceState(null, '', '#fields');
+    }
   });
 
   search.addEventListener('input', () => {
