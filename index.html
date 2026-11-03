@@ -23,6 +23,20 @@
     });
   </script>
   <!-- /Yandex.Metrika counter -->
+  <!-- Bitrix24 CRM form goals for Yandex.Metrika -->
+  <script>
+    window.addEventListener('b24:form:send:success', function(event) {
+      var form = event && event.detail && event.detail.object;
+      var formId = form && form.identification && String(form.identification.id);
+      var goalId = formId === '45' ? 'B24_FORM_45_END' :
+                   formId === '91' ? 'B24_CARE_91_END' : null;
+
+      if (goalId && typeof window.ym === 'function') {
+        window.ym(98545607, 'reachGoal', goalId);
+      }
+    });
+  </script>
+  <!-- /Bitrix24 CRM form goals -->
 </head>
 <body>
   <noscript><div><img src="https://mc.yandex.ru/watch/98545607" style="position:absolute; left:-9999px;" alt=""></div></noscript>
