@@ -576,6 +576,7 @@ h2 {
 
 .catalog-more-wrap { display: flex; justify-content: center; margin-top: 26px; }
 .catalog-more-wrap .button { min-width: 220px; cursor: pointer; font: inherit; }
+#catalog-more[hidden] { display: none; }
 .catalog-empty { grid-column: 1 / -1; padding: 48px 24px; border: 1px dashed var(--line); border-radius: 22px; color: var(--muted); text-align: center; }
 
 .selected-product {
