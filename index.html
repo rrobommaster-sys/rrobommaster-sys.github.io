@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ROBO MASTER — образовательные конструкторы и поддержка. Оставьте заявку на покупку или обратитесь в Службу заботы.">
+  <title>ROBO MASTER — заявки и Служба заботы</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/catalog-data.js" defer></script>
+  <script src="/catalog.js" defer></script>
+</head>
+<body>
+  <div class="sticky-stack">
+    <div class="service-note">
+      <div class="container"><span class="status-dot" aria-hidden="true"></span> Основной магазин временно восстанавливается. Заявки и Служба заботы работают.</div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="ROBO MASTER — наверх">
+          <span class="brand-logo-viewport"><img class="brand-logo" src="/assets/brand/logo.png" alt="ROBO MASTER"></span>
+        </a>
+        <nav class="nav-links" aria-label="Основная навигация">
+          <a href="#about">О нас</a>
+          <a href="#products">Товары</a>
+          <a href="#care">Служба заботы</a>
+          <a class="button button-primary button-small" href="#order">Оставить заявку</a>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Образовательная робототехника</div>
+          <h1>Помогаем детям создавать, исследовать и думать</h1>
+          <p>Конструкторы, комплектующие и программы обучения ROBO MASTER для дома и образовательных учреждений.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#order">Оставить заявку</a>
+            <a class="button button-secondary" href="#care">Нужна помощь</a>
+          </div>
+          <div class="trust-row" aria-label="Преимущества">
+            <span>На рынке с 2016 года</span>
+            <span>Поддержка после покупки</span>
+            <span>Доставка по России</span>
+          </div>
+        </div>
+
+        <div class="robot-card" aria-label="Маскот ROBO MASTER">
+          <img class="mascot-image" src="/assets/brand/mascot.png" alt="Маскот ROBO MASTER">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">ROBO MASTER</div>
+          <h2>Всё необходимое для первых инженерных проектов</h2>
+          <p>Подберём решение под возраст ребёнка, учебную задачу или оснащение класса.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-number">01</div>
+            <h3>Конструкторы</h3>
+            <p>Наборы для знакомства с механикой, программированием и образовательной робототехникой.</p>
+          </article>
+          <article class="card">
+            <div class="card-number">02</div>
+            <h3>Комплектующие</h3>
+            <p>Датчики, моторы, контроллеры и детали для расширения и ремонта учебных наборов.</p>
+          </article>
+          <article class="card">
+            <div class="card-number">03</div>
+            <h3>Обучение</h3>
+            <p>Программы, инструкции и материалы, которые помогают перейти от сборки к самостоятельным проектам.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">Каталог</div>
+          <h2>Все товары ROBO MASTER</h2>
+          <p>Выберите подраздел, найдите товар и оставьте заявку.</p>
+        </div>
+        <div class="catalog-toolbar">
+          <label class="catalog-search">
+            <span class="sr-only">Поиск товара</span>
+            <input id="catalog-search" type="search" placeholder="Найти товар по названию…" autocomplete="off">
+          </label>
+          <div class="catalog-categories" id="catalog-categories" aria-label="Подразделы каталога"></div>
+        </div>
+        <div class="catalog-meta"><strong id="catalog-summary">Все товары</strong><span>Нажмите на товар, чтобы выбрать его для заявки</span></div>
+        <div class="products-grid" id="catalog-grid" aria-live="polite"></div>
+        <div class="catalog-more-wrap"><button class="button button-secondary" id="catalog-more" type="button">Показать ещё</button></div>
+        <p class="catalog-note">Сохранённые цены показаны для отдельных позиций; актуальную стоимость и наличие подтвердит менеджер.</p>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="order">
+      <div class="container form-layout">
+        <div class="form-intro">
+          <div class="eyebrow">Заявка на покупку</div>
+          <h2>Расскажите, что вам нужно</h2>
+          <p>Оставьте контакты. Менеджер уточнит, какой товар вас заинтересовал, а также подтвердит наличие, стоимость и условия доставки.</p>
+          <div class="selected-product" id="selected-product" hidden><span>Вы выбрали</span><strong id="selected-product-name"></strong></div>
+          <ol class="steps">
+            <li><i>1</i><span>Заполните короткую форму</span></li>
+            <li><i>2</i><span>Мы свяжемся с вами</span></li>
+            <li><i>3</i><span>Подтвердим состав и доставку</span></li>
+          </ol>
+        </div>
+        <div class="form-shell">
+          <script data-b24-form="inline/45/62ltmn" data-b24-form-telemetry-sign="v1:45:site.45201cbd93fb56bcf08cf3dd58f319ae5ca57c4b5c1c72bc4f37fc37b45484c8" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://cdn-ru.bitrix24.ru/b26659784/crm/form/loader_45.js');</script>
+          <p class="legal-note">Отправляя форму, вы принимаете <a href="/soglasie-na-obrabotku-personalnykh-dannykh/" target="_blank" rel="noopener">согласие на обработку персональных данных</a> и <a href="/politika-operatora-v-otnoshenii-obrabotki-personalnykh-dannykh/" target="_blank" rel="noopener">политику обработки данных</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section care-section" id="care">
+      <div class="container form-layout">
+        <div class="form-intro">
+          <div class="eyebrow">Служба заботы</div>
+          <h2>Мы рядом после покупки</h2>
+          <p>Если нужна помощь с товаром, инструкцией, программным обеспечением или обращением по заказу — опишите вопрос в форме.</p>
+          <ol class="steps">
+            <li><i>1</i><span>Опишите ситуацию</span></li>
+            <li><i>2</i><span>Добавьте удобный способ связи</span></li>
+            <li><i>3</i><span>Специалист поможет разобраться</span></li>
+          </ol>
+        </div>
+        <div class="form-shell">
+          <script data-b24-form="inline/91/0jhcad" data-b24-form-telemetry-sign="v1:91:site.b65af442c1411113fe39081b1d730d750282a81c6e5b98659451074276ab9825" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://cdn-ru.bitrix24.ru/b26659784/crm/form/loader_91.js');</script>
+          <p class="legal-note">Отправляя форму, вы принимаете <a href="/soglasie-na-obrabotku-personalnykh-dannykh/" target="_blank" rel="noopener">согласие на обработку персональных данных</a> и <a href="/politika-operatora-v-otnoshenii-obrabotki-personalnykh-dannykh/" target="_blank" rel="noopener">политику обработки данных</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Контакты</div>
+          <h2>Свяжитесь с нами напрямую</h2>
+        </div>
+        <div class="contact-strip">
+          <div class="contact-card"><span>Главный офис</span><strong>Осташковское ш., вл. 53, стр. 1, д. Бородино</strong></div>
+          <div class="contact-card"><span>Служба поддержки</span><a href="mailto:support@robo-master.ru">support@robo-master.ru</a></div>
+          <div class="contact-card"><span>Телефон</span><a href="tel:+79858148160">+7 (985) 814-81-60</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>© 2016–2026 ООО «СТЕМ ЦЕНТР» · ROBO MASTER</div>
+      <div class="footer-links">
+        <a href="/soglasie-na-obrabotku-personalnykh-dannykh/">Согласие на обработку данных</a>
+        <a href="/politika-operatora-v-otnoshenii-obrabotki-personalnykh-dannykh/">Политика обработки данных</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
