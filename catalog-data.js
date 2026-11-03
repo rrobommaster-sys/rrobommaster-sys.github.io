@@ -1,6 +1,12 @@
 window.ROBO_CATALOG = {
   "categories": [
     {
+      "id": "vsosh",
+      "name": "ВсОШ",
+      "icon": "00",
+      "count": 4
+    },
+    {
       "id": "pervye-mekhanizmy",
       "name": "Duplo",
       "icon": "01",
@@ -68,6 +74,42 @@ window.ROBO_CATALOG = {
     }
   ],
   "products": [
+    {
+      "id": "vsosh/plata-rasshireniya",
+      "slug": "plata-rasshireniya",
+      "category": "vsosh",
+      "name": "Плата расширения",
+      "price": "5 000 ₽",
+      "image": "/assets/catalog/vsosh-plata-rasshireniya.jpg",
+      "archiveUrl": "#order"
+    },
+    {
+      "id": "vsosh/komplekt-elektroniki",
+      "slug": "komplekt-elektroniki",
+      "category": "vsosh",
+      "name": "Комплект электроники Raspberry Pi Pico 2 RP2350",
+      "price": "7 500 ₽",
+      "image": "/assets/catalog/vsosh-komplekt-elektroniki.jpg",
+      "archiveUrl": "#order"
+    },
+    {
+      "id": "vsosh/nabor-bazovyy",
+      "slug": "nabor-bazovyy",
+      "category": "vsosh",
+      "name": "Набор «Базовый»",
+      "price": "25 000 ₽",
+      "image": "/assets/catalog/vsosh-nabor-bazovyy.jpg",
+      "archiveUrl": "#order"
+    },
+    {
+      "id": "vsosh/nabor-polnyy-komplekt",
+      "slug": "nabor-polnyy-komplekt",
+      "category": "vsosh",
+      "name": "Набор «Полный комплект»",
+      "price": "30 000 ₽",
+      "image": "/assets/catalog/vsosh-nabor-polnyy-komplekt.jpg",
+      "archiveUrl": "#order"
+    },
     {
       "id": "pervye-mekhanizmy/gigantskiy-nabor-duplo-9090",
       "slug": "gigantskiy-nabor-duplo-9090",
