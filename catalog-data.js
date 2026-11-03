@@ -107,7 +107,7 @@ window.ROBO_CATALOG = {
       "category": "vsosh",
       "name": "Набор «Полный комплект»",
       "price": "28 500 ₽",
-      "image": "/assets/catalog/vsosh-nabor-polnyy-komplekt.jpg",
+      "image": "/assets/catalog/vsosh-nabor-polnyy-komplekt-28500.jpg",
       "archiveUrl": "#order"
     },
     {
