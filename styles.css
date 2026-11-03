@@ -394,6 +394,7 @@ h2 {
 }
 
 .section-heading p { color: var(--muted); font-size: 18px; }
+.catalog-download { margin-top: 12px; }
 
 .cards {
   display: grid;
