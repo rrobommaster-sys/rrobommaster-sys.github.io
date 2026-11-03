@@ -1277,7 +1277,7 @@ window.ROBO_CATALOG = {
       "category": "polya",
       "name": "Поле для робота подготовка ледокола к экспедиции РРО 2025 средняя возрастная группа",
       "price": "Цена по запросу",
-      "image": "",
+      "image": "/assets/catalog/polya-podgotovka-ledokola.jpg",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/polya/pole-dlya-robota-podgotovka-ledokola-k-ekspeditsii-rro-2025-srednyaya-vozrastnaya-gruppa/"
     },
     {
@@ -1286,7 +1286,7 @@ window.ROBO_CATALOG = {
       "category": "polya",
       "name": "Поле для робота промышленное рыболовство РРО 2025 младшая возрастная группа",
       "price": "Цена по запросу",
-      "image": "",
+      "image": "/assets/catalog/polya-promyshlennoe-rybolovstvo.jpg",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/polya/pole-dlya-robota-promyshlennoe-rybolovstvo-rro-2025-mladshaya-vozrastnaya-gruppa/"
     },
     {
@@ -1295,7 +1295,7 @@ window.ROBO_CATALOG = {
       "category": "polya",
       "name": "Поле для робота спасение из ледового плена РРО 2025 старшая возрастная группа",
       "price": "Цена по запросу",
-      "image": "",
+      "image": "/assets/catalog/polya-spasenie-iz-ledovogo-plena.jpg",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/polya/pole-dlya-robota-spasenie-iz-ledovogo-plena-rro-2025-starshaya-vozrastnaya-gruppa/"
     },
     {
@@ -1304,7 +1304,7 @@ window.ROBO_CATALOG = {
       "category": "polya",
       "name": "Поле для соревнований сумо",
       "price": "Цена по запросу",
-      "image": "",
+      "image": "/assets/catalog/polya-sumo.jpg",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/polya/pole-dlya-sorevnovaniy-sumo/"
     },
     {
@@ -1322,7 +1322,7 @@ window.ROBO_CATALOG = {
       "category": "polya",
       "name": "Поле кегелринг",
       "price": "Цена по запросу",
-      "image": "",
+      "image": "/assets/catalog/polya-kegelring.png",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/polya/pole-kegelring/"
     },
     {
@@ -1331,7 +1331,7 @@ window.ROBO_CATALOG = {
       "category": "polya",
       "name": "Поле марафон шагающих роботов",
       "price": "Цена по запросу",
-      "image": "",
+      "image": "/assets/catalog/polya-marafon-i-roboschetchik.jpg",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/polya/pole-marafon-shagayushchikh-robotov/"
     },
     {
@@ -1340,7 +1340,7 @@ window.ROBO_CATALOG = {
       "category": "polya",
       "name": "Поле робофишки",
       "price": "Цена по запросу",
-      "image": "",
+      "image": "/assets/catalog/polya-robofishki.png",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/polya/pole-robofishki/"
     },
     {
@@ -1349,7 +1349,7 @@ window.ROBO_CATALOG = {
       "category": "polya",
       "name": "Поле робощетчик",
       "price": "Цена по запросу",
-      "image": "",
+      "image": "/assets/catalog/polya-marafon-i-roboschetchik.jpg",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/polya/pole-roboschyetchik/"
     },
     {
