@@ -214,7 +214,7 @@ window.ROBO_CATALOG = {
       "slug": "bazovyy-nabor-wedo-2-0-rasshirennyy-analog",
       "category": "45300",
       "name": "Базовый набор WeDo 2.0 расширенный 45300",
-      "price": "10 500 ₽",
+      "price": "12 000 ₽",
       "image": "/assets/products/wedo-expanded.jpg",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/45300/bazovyy-nabor-wedo-2-0-rasshirennyy-analog/"
     },
@@ -610,7 +610,7 @@ window.ROBO_CATALOG = {
       "slug": "konstruktor-mindstorms-ev3-45544-bazovyy-nabor",
       "category": "ev3_45544",
       "name": "MINDSTORMS EV3 45544 — базовый набор",
-      "price": "69 000 ₽",
+      "price": "70 000 ₽",
       "image": "/assets/products/mindstorms-ev3.jpg",
       "archiveUrl": "https://web.archive.org/web/20261011045849/https://robo-master.ru/magazin/ev3_45544/konstruktor-mindstorms-ev3-45544-bazovyy-nabor/"
     },
@@ -1390,4 +1390,3 @@ window.ROBO_CATALOG = {
     }
   ]
 };
-
