@@ -43,13 +43,16 @@
     const media = product.image
       ? `<img src="${product.image}" alt="${product.name.replace(/"/g, '&quot;')}" loading="lazy">`
       : placeholder(product.category);
+    const cta = product.category === 'vsosh'
+      ? `<a class="button button-primary product-cta" href="${product.archiveUrl}" target="_blank" rel="noopener noreferrer">Оставить заявку</a>`
+      : `<button class="button button-primary product-cta" type="button" data-product="${product.name.replace(/"/g, '&quot;')}">Оставить заявку</button>`;
     return `<article class="product-card">
       <div class="product-image">${media}</div>
       <div class="product-content">
         <span class="product-tag">${category?.name || 'Каталог'}</span>
         <h3>${product.name}</h3>
         <div class="product-price${product.price === 'Цена по запросу' ? ' product-price-request' : ''}">${product.price}</div>
-        <button class="button button-primary product-cta" type="button" data-product="${product.name.replace(/"/g, '&quot;')}">Оставить заявку</button>
+        ${cta}
       </div>
     </article>`;
   }
@@ -117,7 +120,8 @@
   });
 
   grid.addEventListener('click', event => {
-    const button = event.target.closest('.product-cta');
+    const button = event.target.closest('button.product-cta');
     if (button) selectProduct(button.dataset.product);
   });
 })();
+

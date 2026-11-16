@@ -81,7 +81,7 @@ window.ROBO_CATALOG = {
       "name": "Плата расширения",
       "price": "5 000 ₽",
       "image": "/assets/catalog/vsosh-plata-rasshireniya.jpg",
-      "archiveUrl": "#order"
+      "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
       "id": "vsosh/komplekt-elektroniki",
@@ -90,7 +90,7 @@ window.ROBO_CATALOG = {
       "name": "Комплект электроники Raspberry Pi Pico 2 RP2350",
       "price": "7 500 ₽",
       "image": "/assets/catalog/vsosh-komplekt-elektroniki.jpg",
-      "archiveUrl": "#order"
+      "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
       "id": "vsosh/nabor-bazovyy",
@@ -99,7 +99,7 @@ window.ROBO_CATALOG = {
       "name": "Набор «Базовый»",
       "price": "25 000 ₽",
       "image": "/assets/catalog/vsosh-nabor-bazovyy-25000.jpg",
-      "archiveUrl": "#order"
+      "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
       "id": "vsosh/nabor-polnyy-komplekt",
@@ -108,7 +108,7 @@ window.ROBO_CATALOG = {
       "name": "Набор «Полный комплект»",
       "price": "28 500 ₽",
       "image": "/assets/catalog/vsosh-nabor-polnyy-komplekt-28500.jpg",
-      "archiveUrl": "#order"
+      "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
       "id": "pervye-mekhanizmy/gigantskiy-nabor-duplo-9090",
@@ -1390,3 +1390,4 @@ window.ROBO_CATALOG = {
     }
   ]
 };
+
