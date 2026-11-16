@@ -98,7 +98,7 @@ window.ROBO_CATALOG = {
       "category": "vsosh",
       "name": "Набор «Базовый»",
       "price": "25 000 ₽",
-      "image": "/assets/catalog/vsosh-nabor-bazovyy-25000.jpg",
+      "image": "/assets/catalog/vsosh-nabor-bazovyy-25000-v2.jpg",
       "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
@@ -107,7 +107,7 @@ window.ROBO_CATALOG = {
       "category": "vsosh",
       "name": "Набор «Полный комплект»",
       "price": "28 500 ₽",
-      "image": "/assets/catalog/vsosh-nabor-polnyy-komplekt-28500.jpg",
+      "image": "/assets/catalog/vsosh-nabor-polnyy-komplekt-28500-v2.jpg",
       "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
