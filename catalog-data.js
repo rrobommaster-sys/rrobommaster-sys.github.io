@@ -80,7 +80,7 @@ window.ROBO_CATALOG = {
       "category": "vsosh",
       "name": "Плата расширения",
       "price": "5 000 ₽",
-      "image": "/assets/catalog/vsosh-plata-rasshireniya.jpg",
+      "image": "/assets/catalog/vsosh-plata-rasshireniya-openrobot521g-v3.jpg",
       "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
@@ -89,7 +89,7 @@ window.ROBO_CATALOG = {
       "category": "vsosh",
       "name": "Комплект электроники Raspberry Pi Pico 2 RP2350",
       "price": "7 500 ₽",
-      "image": "/assets/catalog/vsosh-komplekt-elektroniki.jpg",
+      "image": "/assets/catalog/vsosh-komplekt-elektroniki-openrobot521g-v3.jpg",
       "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
@@ -98,7 +98,7 @@ window.ROBO_CATALOG = {
       "category": "vsosh",
       "name": "Набор «Базовый»",
       "price": "25 000 ₽",
-      "image": "/assets/catalog/vsosh-nabor-bazovyy-25000-v2.jpg",
+      "image": "/assets/catalog/vsosh-nabor-bazovyy-mehanika-v3.jpg",
       "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
@@ -107,7 +107,7 @@ window.ROBO_CATALOG = {
       "category": "vsosh",
       "name": "Набор «Полный комплект»",
       "price": "28 500 ₽",
-      "image": "/assets/catalog/vsosh-nabor-polnyy-komplekt-28500-v2.jpg",
+      "image": "/assets/catalog/vsosh-nabor-polnyy-komplekt-openrobot521g-v3.jpg",
       "archiveUrl": "https://robo-master-feedback.bitrix24site.ru/crm_form_1tz2q/"
     },
     {
